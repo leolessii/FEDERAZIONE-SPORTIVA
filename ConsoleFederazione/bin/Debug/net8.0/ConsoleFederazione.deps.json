@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConsoleFederazione/1.0.0": {
+        "dependencies": {
+          "CoreFederazione": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleFederazione.dll": {}
+        }
+      },
+      "CoreFederazione/1.0.0": {
+        "runtime": {
+          "CoreFederazione.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleFederazione/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoreFederazione/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

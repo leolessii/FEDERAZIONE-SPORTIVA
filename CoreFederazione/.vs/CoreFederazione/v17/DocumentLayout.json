@@ -3,8 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\CoreFederazione\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B606D696-C58E-4C26-BA2F-0C29F6E78EED}|CoreFederazione.csproj|c:\\users\\leonardo.lessi\\documents\\federazione-sportiva\\corefederazione\\serializzatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B606D696-C58E-4C26-BA2F-0C29F6E78EED}|CoreFederazione.csproj|solutionrelative:serializzatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B606D696-C58E-4C26-BA2F-0C29F6E78EED}|CoreFederazione.csproj|c:\\users\\leonardo.lessi\\documents\\federazione-sportiva\\corefederazione\\xml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B606D696-C58E-4C26-BA2F-0C29F6E78EED}|CoreFederazione.csproj|solutionrelative:xml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FEF2E0C-F319-4C2C-A57E-49E39C981783}|..\\ConsoleFederazione\\ConsoleFederazione.csproj|c:\\users\\leonardo.lessi\\documents\\federazione-sportiva\\consolefederazione\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B606D696-C58E-4C26-BA2F-0C29F6E78EED}|CoreFederazione.csproj|c:\\users\\leonardo.lessi\\documents\\federazione-sportiva\\corefederazione\\associato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,43 +25,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\ConsoleFederazione\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ConsoleFederazione\\Program.cs",
+              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\ConsoleFederazione\\Program.cs",
+              "RelativeToolTip": "..\\ConsoleFederazione\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:33:50.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Serializzatore.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\CoreFederazione\\Serializzatore.cs",
-              "RelativeDocumentMoniker": "Serializzatore.cs",
-              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\CoreFederazione\\Serializzatore.cs",
-              "RelativeToolTip": "Serializzatore.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowC0AAACKAAAA",
+              "Title": "XML.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\CoreFederazione\\XML.cs",
+              "RelativeDocumentMoniker": "XML.cs",
+              "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\CoreFederazione\\XML.cs",
+              "RelativeToolTip": "XML.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T08:14:37.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Associato.cs",
               "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\CoreFederazione\\Associato.cs",
               "RelativeDocumentMoniker": "Associato.cs",
               "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\CoreFederazione\\Associato.cs",
               "RelativeToolTip": "Associato.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAcwEQAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T07:52:12.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Federazione.cs",
               "DocumentMoniker": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\CoreFederazione\\Federazione.cs",
               "RelativeDocumentMoniker": "Federazione.cs",
               "ToolTip": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\CoreFederazione\\Federazione.cs",
               "RelativeToolTip": "Federazione.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T07:50:52.386Z",
               "EditorCaption": ""

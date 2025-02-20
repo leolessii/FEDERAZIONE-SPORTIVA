@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<soci>
+<socio>
+<associazioni>
+<associazione>nome associazione di appartenenza</associazione>
+</associazioni>
+<nome> Matthew</nome>
+<cognome>Giovannini</cognome>
+<data_nascita>2000-10-01</data_nascita>
+<data_rinnovo>2000-10-01</data_rinnovo>
+</socio>
+<socio>
+<associazioni>
+<associazione>nome associazione di appartenenza 1</associazione>
+<associazione>nome associazione di appartenenza 2</associazione>
+</associazioni>
+<nome> Giacomo</nome>
+<cognome>Giovannini</cognome>
+<data_nascita>2000-10-01</data_nascita>
+<data_rinnovo>2000-10-01</data_rinnovo>
+</socio>
+</soci>
