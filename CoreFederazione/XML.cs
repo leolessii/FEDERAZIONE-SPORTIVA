@@ -14,16 +14,17 @@ namespace CoreFederazione
         private HashSet<Associato> LeggiSociDaFileSingolo(string path)
         {
             XmlDocument doc = new XmlDocument();
-            doc.LoadXml(path);
-            XmlNode associazione = doc.FirstChild;
+            doc.Load(path);
+            
+            XmlNodeList associazione = doc.GetElementsByTagName("soci");
             HashSet<Associato> associati = new HashSet<Associato>();
-            foreach(XmlNode node in associazione.ChildNodes)
+            foreach(XmlNode socio in associazione)
             {
-                string nome = node["nome"]!.Value!;
-                string cognome = node["cognome"]!.Value!;
-                string dataDiNascita = node["data_nascita"]!.Value!;
-                string dataDiRinnovo = node["data_rinnovo"]!.Value!;
-
+                string nome = socio["nome"]!.Value!;
+                string cognome = socio["cognome"]!.Value!;
+                string dataDiNascita = socio["data_nascita"]!.Value!;
+                string dataDiRinnovo = socio["data_rinnovo"]!.Value!;
+                
                 Associato associato = new Associato(nome, cognome, DateOnly.FromDateTime(Convert.ToDateTime(dataDiNascita)), DateOnly.FromDateTime(Convert.ToDateTime(dataDiRinnovo)));
                 associato.AssociazioniDiAppartenenza.Add(associazione.InnerText);
                 associati.Add(associato);

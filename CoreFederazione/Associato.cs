@@ -85,6 +85,11 @@ namespace CoreFederazione
             
         }
 
+        public override string ToString()
+        {
+            return _nome + _cognome;
+        }
+
         public override bool Equals(object? obj)
         {
             if(obj != null)

@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\ConsoleFederazione\\ConsoleFederazione.csproj",
+      "projectUniqueName": "C:\\Users\\Leonardo.Lessi\\Documents\\FEDERAZIONE-SPORTIVA\\ConsoleFederazione\\ConsoleFederazione.csproj",
       "projectName": "ConsoleFederazione",
-      "projectPath": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\ConsoleFederazione\\ConsoleFederazione.csproj",
+      "projectPath": "C:\\Users\\Leonardo.Lessi\\Documents\\FEDERAZIONE-SPORTIVA\\ConsoleFederazione\\ConsoleFederazione.csproj",
       "packagesPath": "C:\\Users\\Leonardo.Lessi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\ConsoleFederazione\\obj\\",
+      "outputPath": "C:\\Users\\Leonardo.Lessi\\Documents\\FEDERAZIONE-SPORTIVA\\ConsoleFederazione\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\CoreFederazione\\CoreFederazione.csproj": {
-              "projectPath": "C:\\Users\\Leonardo.Lessi\\Documents\\Federazione-Sportiva\\CoreFederazione\\CoreFederazione.csproj"
+            "C:\\Users\\Leonardo.Lessi\\Documents\\FEDERAZIONE-SPORTIVA\\CoreFederazione\\CoreFederazione.csproj": {
+              "projectPath": "C:\\Users\\Leonardo.Lessi\\Documents\\FEDERAZIONE-SPORTIVA\\CoreFederazione\\CoreFederazione.csproj"
             }
           }
         }

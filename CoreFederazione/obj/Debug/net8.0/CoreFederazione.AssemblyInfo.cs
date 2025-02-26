@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreFederazione")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a17e05725a6994d944109cbb51b0d25722b024e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7eb196c60c56ab47b115caa06ec88d72dbb92a2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoreFederazione")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoreFederazione")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleFederazione")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a17e05725a6994d944109cbb51b0d25722b024e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7eb196c60c56ab47b115caa06ec88d72dbb92a2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleFederazione")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleFederazione")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
