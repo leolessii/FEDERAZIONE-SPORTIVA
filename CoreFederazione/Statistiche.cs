@@ -75,5 +75,60 @@ namespace CoreFederazione
 
             return risultato as HashSet<Associato>;
         }
+
+        public HashSet<Associato> ElencoSociMaggiorenniLambda()
+        {
+            var risultato = _associati
+                            .Where(a => a.Key.DataDiNascita <= DateOnly.FromDateTime(DateTime.Now).AddYears(-18))
+                            .OrderBy(a => a.Key.Nome);
+
+            return risultato as HashSet<Associato>;
+        }
+
+        public HashSet<Associato> ElencoSociMinorenniLambda()
+        {
+            var risultato = _associati
+                            .Where(a => a.Key.DataDiNascita >= DateOnly.FromDateTime(DateTime.Now).AddYears(-18))
+                            .Order();
+
+            return risultato as HashSet<Associato>;
+        }
+
+        public int NumeroTotaleSociLamda()
+        {
+            var risultato = _associati
+                            .Order();
+
+            return (risultato as HashSet<Associato>).Count;
+        }
+
+
+        public int NumeroTotaleAssociazioniLambda()
+        {
+            var risultato = _associati
+                            .Where(a => a.Key.AssociazioniDiAppartenenza != null)
+                            .Order();
+
+            return (risultato as HashSet<string>).Count;
+        }
+
+
+        public int ElencoAssociatiConPiuAssociazioniLambda()
+        {
+            var risultato = _associati
+                            .Where(a => a.Key.AssociazioniDiAppartenenza.Count() > 1)
+                            .Order();
+
+            return (risultato as HashSet<Associato>).Count;
+        }
+
+        public HashSet<Associato> ElencoAssociatiConRinnovoInScadenzaLambda()
+        {
+            var risultato = _associati
+                            .Where(a => a.Key.DataDiRinnovo.AddYears(1) <= DateOnly.FromDateTime(DateTime.Now) || a.Key.DataDiRinnovo.AddYears(1) <= DateOnly.FromDateTime(DateTime.Now).AddMonths(1))
+                            .Order();
+
+            return risultato as HashSet<Associato>;
+        }
     }
 }
